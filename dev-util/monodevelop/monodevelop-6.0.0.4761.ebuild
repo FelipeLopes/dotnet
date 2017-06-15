@@ -20,7 +20,7 @@ IUSE="+subversion +git doc +gnome qtcurve"
 COMMON_DEPEND="
 	>=dev-lang/mono-3.2.8
 	>=dev-dotnet/gtk-sharp-2.12.21:2
-	>=dev-dotnet/nuget-2.8.7
+	>=dev-dotnet/nuget-2.8.7[net45]
 	dev-dotnet/referenceassemblies-pcl
 	net-libs/libssh2
 	gnome? ( >=dev-dotnet/gnome-sharp-2.24.2-r1 )"

@@ -31,7 +31,7 @@ IUSE="${USE_DOTNET} +subversion +git qtcurve test"
 COMMON_DEPEND="
 	>=dev-lang/mono-4.4.1
 	>=dev-dotnet/gtk-sharp-2.12.21:2
-	>=dev-dotnet/nuget-2.8.7
+	>=dev-dotnet/nuget-2.8.7[net45]
 	dev-dotnet/referenceassemblies-pcl
 	>=dev-lang/fsharp-4.0.1.15
 	net-libs/libssh2"
